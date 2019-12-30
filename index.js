@@ -33,7 +33,5 @@ function appendKitten(name){
 }
 
 function prependKitten(name) {
-  let newArr= [...kittens];
-  newArr.unshift(name);
-  return newArr;
+ return let newArr = [].concat(kittens).concat(name);
 }
