@@ -37,3 +37,9 @@ function prependKitten(name) {
   newArr.unshift(name);
   return newArr
 }
+
+function removeLastKitten(){
+  let newArr =[].concat(kittens);
+  newArr.pop();
+  return newArr;
+}
