@@ -5,5 +5,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 function destructivelyAppendKitten(name){
   kittens.pop(name);
+  kittens.unshift();
+  return kittens;
   
 }
