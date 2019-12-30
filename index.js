@@ -43,3 +43,8 @@ function removeLastKitten(){
   newArr.pop();
   return newArr;
 }
+
+function removeFirstKitten(){
+  let newArr= [].concat(kittens);
+  
+}
