@@ -46,5 +46,6 @@ function removeLastKitten(){
 
 function removeFirstKitten(){
   let newArr= [].concat(kittens);
-  
+  newArr.shift();
+  return newArr;
 }
